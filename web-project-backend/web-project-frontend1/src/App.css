@@ -1,0 +1,156 @@
+/* Custom styles for web app */
+body {
+  background-color:#d9d9d9
+}
+
+/* Styles for projects container*/
+.web-projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for heading*/
+.web-projects-heading {
+  text-align: center;
+  color: #333;
+  text-shadow: 2px 2px #807c7c;
+}
+
+/* Styles for all project contents */
+.web-projects-content {
+  justify-content: space-between;
+}
+
+.web-projects-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.web-project-item {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.web-project-link {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+.web-project-edit,
+.web-project-delete {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Edit Popup Styles */
+.edit-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.edit-popup-heading {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.edit-popup-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edit-popup-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.edit-popup-save,
+.edit-popup-cancel {
+  margin: 3px;
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Project Form Styles */
+.add-project-form-container {
+  max-width: auto;
+  margin-top: 20px;
+}
+
+.add-project-heading {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.add-project-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-project-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-project-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.add-project-button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 28px;
+  }
+
+  section {
+      padding: 10px;
+  }
+}
+
+/* Responsive design for even smaller screens */
+@media (max-width: 576px) {
+  header h1 {
+      font-size: 24px;
+  }
+
+  section {
+      padding: 5px;
+  }
+}
